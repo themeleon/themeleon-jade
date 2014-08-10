@@ -2,19 +2,19 @@
   "name": "themeleon-jade",
   "version": "0.1.0",
   "description": "Themeleon Jade extension",
-  "author": {
-    "name": "Pascal Duez",
-    "url": "https://github.com/pascalduez"
-  },
+  "contributors": [
+    { "name": "Pascal Duez", "url": "https://github.com/pascalduez" },
+    { "name": "Valérian Galliat", "url": "https://github.com/valeriangalliat" }
+  ],
   "license": {
     "type": "unlicence",
     "url": "http://unlicense.org"
   },
-  "homepage": "https://github.com/pascalduez/themeleon-jade",
-  "bugs": "https://github.com/pascalduez/themeleon-jade/issues",
+  "homepage": "https://github.com/themeleon/themeleon-jade",
+  "bugs": "https://github.com/themeleon/themeleon-jade/issues",
   "repository": {
     "type": "git",
-    "url": "git://github.com/pascalduez/themeleon-jade.git"
+    "url": "git://github.com/themeleon/themeleon-jade.git"
   },
   "main": "index.js",
   "engines": {
