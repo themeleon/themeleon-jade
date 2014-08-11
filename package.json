@@ -1,7 +1,7 @@
 {
   "name": "themeleon-jade",
   "version": "0.1.0",
-  "description": "Themeleon Jade extension",
+  "description": "Jade mixin for Themeleon.",
   "contributors": [
     { "name": "Pascal Duez", "url": "https://github.com/pascalduez" },
     { "name": "Valérian Galliat", "url": "https://github.com/valeriangalliat" }
