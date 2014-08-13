@@ -1,25 +1,27 @@
 {
   "name": "themeleon-jade",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Jade mixin for Themeleon.",
-  "contributors": [
-    { "name": "Pascal Duez", "url": "https://github.com/pascalduez" },
-    { "name": "Valérian Galliat", "url": "https://github.com/valeriangalliat" }
-  ],
-  "license": {
-    "type": "unlicence",
-    "url": "http://unlicense.org"
+  "license": "Unlicense",
+
+  "author": {
+    "name": "Pascal Duez",
+    "url": "https://github.com/pascalduez"
   },
+
+  "contributors": [{
+    "name": "Valérian Galliat",
+    "url": "http://val.codejam.info/"
+  }],
+
   "homepage": "https://github.com/themeleon/themeleon-jade",
   "bugs": "https://github.com/themeleon/themeleon-jade/issues",
+
   "repository": {
     "type": "git",
-    "url": "git://github.com/themeleon/themeleon-jade.git"
+    "url": "https://github.com/themeleon/themeleon-jade.git"
   },
-  "main": "index.js",
-  "engines": {
-    "node": ">=0.10.0"
-  },
+
   "dependencies": {
     "ap": "^0.2.0",
     "jade": "^1.5.0",
@@ -27,15 +29,17 @@
     "q": "^1.0.1",
     "themeleon": "^0.2.1"
   },
+
   "devDependencies": {
     "eslint": "^0.7.4",
     "faucet": "0.0.1",
     "rimraf": "^2.2.8",
     "tape": "^2.14.0"
   },
+
   "scripts": {
     "lint": "eslint *.js test/test.js",
-    "test": "${npm_package_scripts_lint} & tape test/test.js | faucet",
+    "test": "$npm_package_scripts_lint & tape test/test.js | faucet",
     "posttest": "rimraf test/index.html"
   }
 }
