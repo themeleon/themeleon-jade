@@ -8,11 +8,12 @@
     "url": "http://unlicense.org/"
   },
 
+  "author": {
+    "name": "Pascal Duez",
+    "url": "https://github.com/pascalduez"
+  },
+
   "contributors": [
-    {
-      "name": "Pascal Duez",
-      "url": "https://github.com/pascalduez"
-    },
     {
       "name": "Valérian Galliat",
       "url": "http://val.codejam.info/"
