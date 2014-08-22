@@ -1,18 +1,23 @@
 {
   "name": "themeleon-jade",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Jade mixin for Themeleon.",
-  "license": "Unlicense",
 
-  "author": {
-    "name": "Pascal Duez",
-    "url": "https://github.com/pascalduez"
+  "license": {
+    "type": "Unlicense",
+    "url": "http://unlicense.org/"
   },
 
-  "contributors": [{
-    "name": "Valérian Galliat",
-    "url": "http://val.codejam.info/"
-  }],
+  "contributors": [
+    {
+      "name": "Pascal Duez",
+      "url": "https://github.com/pascalduez"
+    },
+    {
+      "name": "Valérian Galliat",
+      "url": "http://val.codejam.info/"
+    }
+  ],
 
   "homepage": "https://github.com/themeleon/themeleon-jade",
   "bugs": "https://github.com/themeleon/themeleon-jade/issues",
