@@ -33,7 +33,7 @@
     "jade": "^1.5.0",
     "merge": "^1.1.3",
     "q": "^1.0.1",
-    "themeleon": "^0.2.1"
+    "themeleon": "^1.0.4"
   },
 
   "devDependencies": {
