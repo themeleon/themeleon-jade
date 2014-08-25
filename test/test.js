@@ -20,7 +20,6 @@ var theme = themeleon(__dirname, function (t) {
   t.jade('fixture/index.jade', 'index.html', options);
 });
 
-
 test('themeleon-jade', function (assert) {
   assert.plan(2);
 
@@ -36,6 +35,8 @@ test('themeleon-jade', function (assert) {
     assert.equal(input, expected);
   }
 
-  theme(__dirname, context).then(end);
+  theme(__dirname, context)
+    .then(end)
+    .done();
 
 });
