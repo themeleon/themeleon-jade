@@ -3,6 +3,9 @@ Themeleon Jade
 
 > [Jade] mixin for [Themeleon].
 
+**Warning:** this repository/package is deprecated, template engines
+will be handled by consolidate.js in Themeleon 3.0.
+
 [Jade]: http://jade-lang.com
 [Themeleon]: https://github.com/themeleon/themeleon
 
